@@ -13,13 +13,13 @@ angular.module('testMytodoApp')
     ];
 
     $scope.addTodo = function(){
-    	if( (typeof $scope.todo !== "undefined")){
+    	if( (typeof $scope.todo !== 'undefined')){
 	    	$scope.todos.push($scope.todo);
-    		$scope.todo = "";
+    		$scope.todo = '';
     	}
     };
 
     $scope.removeTodo = function(index){
     	$scope.todos.splice(index, 1);
-   	}
+   	};
   });
