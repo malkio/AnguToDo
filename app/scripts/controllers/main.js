@@ -10,10 +10,6 @@
 angular.module('testMytodoApp')
   .controller('MainCtrl', function ($scope) {
     $scope.todos = [
-      'Item 1',
-      'Item 2',
-      'Item 3',
-      'Another Item'
     ];
 
     $scope.addTodo = function(){
